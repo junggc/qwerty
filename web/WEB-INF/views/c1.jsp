@@ -12,8 +12,8 @@
 </head>
     <body>
         <form action="/complete">
-            <input type="text" name="oo">
-            <input type="text" name="pp">
+            <input type="text" name="what">
+            <input type="text" name="time">
             <input type="submit" value="제출!!!">
         </form>
     </body>

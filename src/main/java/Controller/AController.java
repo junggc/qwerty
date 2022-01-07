@@ -1,7 +1,11 @@
 package Controller;
 
+import Controller.Dto.ADto;
+import Service.AService;
 import org.springframework.stereotype.Controller;
+
 import org.springframework.web.bind.annotation.RequestMapping;
+
 
 @Controller
 public class AController {
@@ -18,8 +22,6 @@ public class AController {
     public String main2(){
         return "c1";
     }
-    @RequestMapping(value = "/complete")
-    public String main3(){
-        return "end";
+
     }
-}
+

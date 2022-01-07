@@ -12,6 +12,7 @@
 </head>
     <body>
         <form action="/complete">
+            <input type="text" name="aa">
             <input type="text" name="what">
             <input type="text" name="time">
             <input type="submit" value="제출!!!">

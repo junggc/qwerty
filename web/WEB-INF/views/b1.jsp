@@ -11,6 +11,8 @@
     <title>Title</title>
 </head>
 <body>
+<%--AController 타고 감--%>
+<%--클릭시 ccc로 가는 버튼 생성--%>
 <button type="button" onclick="location.href='/ccc'" class="btn btn-primary">클릭시 /ccc 로 </button>
 </body>
 </html>

@@ -10,7 +10,8 @@
 <head>
     <title>Title</title>
 </head>
-
+<%--AController 에 타고 감--%>
+<%--클릭시 bbb 로 가는 버튼 생성--%>
 <button type="button" onclick="location.href='/bbb'" class="btn btn-primary">클릭시 /bbb 로 </button>
 </body>
 </html>

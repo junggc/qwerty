@@ -7,20 +7,20 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 
-@Controller
-public class AController {
+@Controller//컨트롤러 어노테이션
+public class AController {//AController 생성
 
-    @RequestMapping(value = "/aaa")
+    @RequestMapping(value = "/aaa")//aaa경로로 가서
     public String main(){
-        return "a1";
+        return "a1";//a1.jsp 페이지열어줌
     }
-    @RequestMapping(value = "/bbb")
-    public String main1(){
-        return "b1";
+    @RequestMapping(value = "/bbb")//bbb경로로 가서
+    public String main1(){ //위의 main 과 다른이름으로
+        return "b1";//b1.jsp 페이지열어줌
     }
-    @RequestMapping(value = "/ccc")
-    public String main2(){
-        return "c1";
+    @RequestMapping(value = "/ccc")//ccc경로로 가서
+    public String main2(){ //위의 main1 과 다른이름으로
+        return "c1";//c1.jsp 페이지열어줌
     }
 
     }

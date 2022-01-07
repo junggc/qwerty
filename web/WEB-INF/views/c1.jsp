@@ -18,3 +18,4 @@
         </form>
     </body>
 </html>
+<%--폼태그 생성하여 액션에 complete경로 설정 하여 submit 버튼을 누르면 정보 제출--%>
